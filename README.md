@@ -68,15 +68,37 @@ npm install
 
 ### Wireflow
 
-> ![](./Brot-1.jpg) > ![](./Brot-2.jpg)
+> ![](./Brot-1.jpg) ![](./Brot-2.jpg)
 
 ### Layers
 
 #### Functional
 
+#### Reliable
+
 #### Usable
 
 #### Pleasurable
+
+#### Criteria
+
+Een link naar de demo
+
+Er is een Readme toegevoegd met daarin beschreven:
+
+- Een (wireflow) schets van de functionaliteit met een beschrijving van de core functionality. Geef ook aan wat de functional/reliable, usable en pleasurable laag.
+- een beschrijving van de feature(s)/Browser Technologies
+- een lijst met de vier browsers waarin je gaat testen, plus welke functionaliteiten zoals JavaScript je aan en uit zet tijdens de tests. (Op desktop 1 Chromium 1 niet-Chromium, op mobiel 1 iOS + 1 Android OF een Samsung- en een niet-Samsung Android.)
+- welke browsers de feature(s) wel/niet ondersteunen
+- een beschrijving van de accessibility issues die zijn onderzocht + screenreader test
+- beschrijving PE en oplossingen toevoegen
+- De demo is opgebouwd in 3 lagen, volgens het principe van Progressive Enhancement
+- De user experience van de demo is goed
+  - de leesbaarheidsregels zijn toegepast, contrast en kleuren kloppen
+  - het heeft een gebruiksvriendelijke interface, met gebruikmaking van affordance en feedback op de interactieve elementen
+  - de meest 'enhanced' versie is super vet, gaaf en h-e-l-e-maal te leuk om te gebruiken
+- Student kan de Basic functionaliteit van een use case doorgronden
+- Student kan uitleggen wat Progressive Enhancement en Feature Detectie is en hoe dit toe te passen in Web Development en de eigen opdracht
 
 <details>
 <summary>Old repo content</summary>
