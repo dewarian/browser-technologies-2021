@@ -47,6 +47,8 @@ npm install
 
 ### Case
 
+[enquete](https://github.com/dewarian/browser-technologies-2021/blob/master/course/Usecase-enquete.md)
+
 > Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
 #### Requirements
@@ -62,6 +64,11 @@ npm install
   - eigen inzicht (hoe goed snap je het)
 - Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
 - Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+
+### Wireframe
+
+> ![](./Brot-1.jpg)
+> ![](./Brot-2.jpg)
 
 ### Layers
 
