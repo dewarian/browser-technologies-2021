@@ -8,6 +8,7 @@
 - [Break the web]()
 - [Final Assignment]()
   - [install]()
+  - [wireflow]()
 
 ## DEMO
 
@@ -65,10 +66,9 @@ npm install
 - Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
 - Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
 
-### Wireframe
+### Wireflow
 
-> ![](./Brot-1.jpg)
-> ![](./Brot-2.jpg)
+> ![](./Brot-1.jpg) > ![](./Brot-2.jpg)
 
 ### Layers
 
