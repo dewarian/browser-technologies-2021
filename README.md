@@ -2,22 +2,24 @@
 
 <!-- TAGS HERE -->
 
-- [DEMO]()
-- [Learning Goals]()
-- [npm i progressive-enhancement]()
-- [Break the web]()
-- [Final Assignment]()
-  - [install]()
-  - [wireflow]()
+- [DEMO](#demo)
+- [Learning Goals](#learning-goals)
+- [npm i progressive-enhancement](#npm-install-progressive-enhancement)
+- [Break the web](#break-the-web)
+- [Final Assignment](#final-assignment)
+  - [install](#install)
+  - [case](#case)
 
 ## DEMO
+
+[**Demo of browser-technologies-survey**](#)
 
 ## LEARNING GOALS
 
 - _je leert wat Progressive enhancement is en hoe je dit kan toepassen._
 - _je leert Browser Technologies te onderzoeken, testen en implementeren als enhancement._
 - _je leert hoe je Feature Detection doet en wat je kan doen als een 'feature' niet werkt of wordt ondersteund._
-  <sub>Copied from the [repo](https://github.com/bazottie/browser-technologies-1920).</sub>
+  <sub>Copied from the [repository](https://github.com/bazottie/browser-technologies-1920).</sub>
 
 ## NPM INSTALL PROGRESSIVE-ENHANCEMENT
 
@@ -51,20 +53,21 @@ npm install
 [enquete](https://github.com/dewarian/browser-technologies-2021/blob/master/course/Usecase-enquete.md)
 
 > Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+> <sub>Copied from the [repository](https://github.com/bazottie/browser-technologies-1920).</sub>
 
 #### Requirements
 
-- Studentgegevens (naam + nummer) verplicht
-- Per vak
-  - naam
-  - docent(en)
-  - weken waarin je het vak deed
-  - beoordeling op schaal 1-10 van
-  - lesstof (hoe moeilijk is het)
-  - uitleg (hoe duidelijk is het uitgelegd)
-  - eigen inzicht (hoe goed snap je het)
-- Validatie: alles moet zijn ingevuld voordat je verder mag met het formulier. Geef duidelijke foutmeldingen.
-- Als ik de enquete niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven.
+- student information (name and id) required.
+- Per subject
+  - Name of subject
+  - Teacher(s)
+  - Subject taught in which weeks
+  - Grading on a scale of 1 - 10
+  - Difficulty material (how difficult)
+  - Explanation (How clear was the explanation was)
+  - Own insight (how much did you understand?)
+- Validation: Everything in the form has to be filled in. Give clear error messages.
+- If the survey isn't finished I would like to continue where I left off.
 
 ### Wireflow
 
