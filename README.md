@@ -75,13 +75,45 @@ npm install
 
 ### Layers
 
+The hierarchy of user needs, if a beautiful application that is not functional, it will not satisfy the users' basic needs. Because it lacks a function its aesthetic qualities will remain unappreciated.
+
 #### Functional
 
-#### Reliable
+The functional layer for the survey will be a simple black and white form with different kind of inputs. The student filling the survey will have a neutral experience, but they feel like it lacks and not 'usable'.
+
+The problem with this I hinted is that the experience is less than pleasurable. It isn't visually pleasing, the form does not help the user to fill in the form but it just works.
+
+A way to solve this is to keep the task as concise as possible until there is a moment or possibility to enhance this functional layer.
+
+To summarize:
+
+- HTML is served.
+- Forms will be handled by the server.
+- Every subject will have it's own page.
+- HTML form handling.
 
 #### Usable
 
+The usable layer is a step away from being pleasureable. The usual styling and small JavaScript enhancements will be applied to the application, where the user can delight themselves with visually appleasing forms, interactivity that helps the user with filling in the form. A small enhancement would be giving feedback about how they rate a subject.
+
+To summarize:
+
+- Survey is stylized to enhance readability and visibility.
+- Survey will help the user with answering the questions.
+- Survey give feedback to the user based on their own input.
+- HTML form handling with style enhancement for visibility.
+
 #### Pleasurable
+
+The pleasurable layer is when everything in the world is in your favour, internet is speedy, device is speedy, the browser supports everything, you can give the user the most pleasurable experience with the survey. There are little to no load times or refreshes, the form is paginated without the user experiencing it. Everytime a user fills in the question it get stored so that person can continue at all times by simply visiting.
+
+The pleasurable layer also validates the input that normally cannot be validated without JavaScript.
+
+- Bleeding edge HTML, CSS and JS is being used.
+- There is an easy transition between subjects.
+- The user gets direct feedback when a question has been entered (in)correctly.
+- Progression through the survey is shown with clear elements, animations and correct usage of interactivity.
+- Local Storage allows the user to not login once again to continue where they left off.
 
 #### Criteria
 
