@@ -179,11 +179,11 @@ Het web is voor iedereen: Deze week gaan we onderzoeken wat Progressive Enhancem
 
 Browser Technolgies begint op woensdag. In het eerste college krijg je uitleg over het programma en over het nut van Progressive Enancement. Wat is dat eigenlijk? De meeste CMD studenten hebben dit waarschijnlijk al eens gehoord en misschien iets mee gedaan in blok Tech. Progressive Enhancement, oftewel PE, is een manier hoe je je de code van een website kan bouwen zodat alle gebruikers met alle browsers je website zo goed mogelijk te zien krijgen. Met PE kun je robuuste websites bouwen die het altijd doen. PE is een manier van denken.
 
-| Woensdag 10/3 | Wat                                                                               |
-| ------------- | --------------------------------------------------------------------------------- |
-| 9:30          | College les 1 over het vak, wie, wat, waar en PE                                  |
-|               | [Briefing Opdracht 1 🛹 NPM install Progressive-Enhancement](course/Opdracht1.md) |
-| 16:00         | Checkout per team                                                                 |
+| Woensdag 10/3 | Wat                                                                                                    |
+| ------------- | ------------------------------------------------------------------------------------------------------ |
+| 9:30          | [College les 1 over het vak, wie, wat, waar en waarom](course/BT2021-les1-progressive-enhancement.pdf) |
+|               | [Briefing Opdracht 1 🛹 NPM install Progressive-Enhancement](course/Opdracht1.md)                      |
+| 16:00         | Checkout per team                                                                                      |
 
 ##### Lezen voor les 1 📖
 
@@ -213,12 +213,12 @@ Lezen voor les 2 📖
 
 Vrijdag bespreken we in clubjes opdracht 2. Zorg dat je de bevindingen van je onderzoek online kan presenteren. We gaan de hele feature lijst doorlopen en alle studenten kunnen laten zien wat ze hebben onderzocht, met voorbeelden, de problemen, cijfers en/of meningen. Bedenk ook hoe je de problemen zou kunnen oplossen.
 
-| Vrijdag 12/3 | Wat                                 |
-| ------------ | ----------------------------------- |
-| 11:30        | Opdracht 2 bespreken in clubje A 💔 |
-| 13:00        | Opdracht 2 bespreken in clubje B 💔 |
-| 14:30        | Opdracht 2 bespreken in clubje C 💔 |
-| 16:00        | Work Hard Play Hard                 |
+| Vrijdag 12/3 | Wat                                                                          |
+| ------------ | ---------------------------------------------------------------------------- |
+| 11:30        | [Opdracht 2 bespreken](course/BT2021-opdracht-2-8-features.pdf) in team C 💔 |
+| 13:00        | [Opdracht 2 bespreken](course/BT2021-opdracht-2-8-features.pdf) in team A 💔 |
+| 14:30        | [Opdracht 2 bespreken](course/BT2021-opdracht-2-8-features.pdf) in team B 💔 |
+| 16:00        | Work Hard Play Hard                                                          |
 
 ### Week 2
 
