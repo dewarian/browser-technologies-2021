@@ -82,7 +82,7 @@ npm install
 
 ### Wireflow
 
-> ![](./Brot-1.jpg) ![](./Brot-2.jpg)
+> ![](./public/assets/Brot-1.jpg) ![](./public/assets/Brot-2.jpg)
 
 ### Layers
 
