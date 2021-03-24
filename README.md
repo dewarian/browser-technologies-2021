@@ -38,6 +38,17 @@ Voor opdracht 2 ga je proberen het Web te laten 'breken' door (browser) features
 Voor de eindopdracht ontwerp en maak je een interactieve toepassing volgens het principe van Progressive Enhancement. Zorg dat alle gebruikers, met alle browsers, in iedere context de toepassing zo goed mogelijk te zien, horen en/of voelen krijgen. De meest 'enhanced' versie is 'delightful UX', mooi en prettig om te gebruiken.
 
 - [De eindopdracht - Progressive Enhanced Browser Technologie](course/Eindopdracht.md)
+  <sub>Copied from the [repository](https://github.com/bazottie/browser-technologies-1920).</sub>
+
+### Testing
+
+To make sure the application is valid, it has to be tested on atleast two type of devices, a phone and a desktop.
+This cannot just be one eco-system thus it will be tested on an android device, apple device and a desktop, and a browser.
+|Device|feature|feature|
+|--|:-:|:-:|
+|iPhone 12 Pro|🚫|✅|
+|Samsung Galaxy Note 4|||
+|Safari (mbp 2018)|||
 
 ### Install
 
