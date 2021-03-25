@@ -7,23 +7,30 @@
   }
 }
 
-* {
+*, *::before, *::after {
   box-sizing: content-box;
 }
 
 body {
-  background-color: #ffcc00;
+  background-color: var(--test);
   margin: 0;
   padding: 0;
   font-size: 1.2em;
 }
 
-
-
 p {
   font-size: 1.3em;
 }
 
+main {
+  margin: auto;
+  margin-top: 2vh;
+  padding: 3vw 3vw;
+  max-width: 50em;
+  background-color: #fff;  
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
 /*
 ==========================
