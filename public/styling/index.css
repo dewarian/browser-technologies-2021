@@ -1,3 +1,56 @@
+@supports(--css: variables) {
+  :root {
+    --error: #A10702;
+    --test: #ffcc00;
+    --text-colour: #000000;
+
+  }
+}
+
+* {
+  box-sizing: content-box;
+}
+
 body {
   background-color: #ffcc00;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+
+
+
+p {
+  font-size: 1.3em;
+}
+
+
+/*
+==========================
+|| No JavaScript Errror ||
+==========================
+*/
+
+/* Hiding content the right way
+  Source: https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/
+  Author: Dave Rupert
+  Published: 13-02-2013
+  Updated: 28-07-2019 by Michael Fairchild
+*/
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.disabledJS {
+  display: block;
+  background-color: #A10702;
+  background-color: var(--error);
+  color: #ffffff;
+  padding: 1em;
 }
