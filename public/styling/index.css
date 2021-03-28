@@ -53,11 +53,3 @@ main {
   white-space: nowrap;
   width: 1px;
 }
-
-.disabledJS {
-  display: block;
-  background-color: #A10702;
-  background-color: var(--error);
-  color: #ffffff;
-  padding: 1em;
-}
