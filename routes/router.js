@@ -7,4 +7,11 @@ router.get("/", (req, res) => {
   });
 });
 
+router.post("/subjectOne", (req, res) => {
+  const user = { userId: req.body.userId, userName: req.body.userName };
+  res.render("test", {
+    data: user,
+  });
+});
+
 module.exports = router;
