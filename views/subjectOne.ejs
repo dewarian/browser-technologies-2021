@@ -1,0 +1,51 @@
+<%- include('partials/head', {title: pageTitle}) %>
+<header>
+  <h1>CMD Minor Web Survey</h1>
+  <p>Welcome <span class="bold"><%= data.userName %></span>, What are your thoughts about <span
+      class="bold"><%= subject %> </span>?</p>
+</header>
+<form action="" method="post">
+  <fieldset>
+    <legend><%= subject %></legend>
+    <label for="teachers">Which teachers gave this course</label>
+    <select name="teachers" id="teachers" required>
+      <option value="" disabled selected hidden>Please choose</option>
+      <option value="teacherGroupOne">Joost & Suus</option>
+      <option value="teacherGroupTwo">Sanne & Vasilis</option>
+      <option value="teacherGroupThree">Joost & Declan</option>
+      <option value="teacherGroupFour">Koop & Peter-Paul</option>
+      <option value="teacherGroupFive">Guido & Justus</option>
+      <option value="teacherGroupSix">Koop & Vasilis</option>
+    </select>
+  </fieldset>
+  <fieldset>
+    <legend>In which period did you follow <%= subject %>?</legend>
+    <input type="radio" name="timePeriod" id="periodOne" value="week1ToWeek4" required>
+    <label for="periodOne">Week one to four</label>
+    <input type="radio" name="timePeriod" id="periodTwo" value="week5ToWeek9" required>
+    <label for="periodTwo">Week five to nine</label>
+    <input type="radio" name="timePeriod" id="periodThree" value="week10ToWeek14" required>
+    <label for="periodThree">Week ten to fourteen</label>
+  </fieldset>
+  <fieldset>
+    <legend>How would you rate <%= subject%>?</legend>
+    <label for="ratingSubject">Rate from 1 to 10</label>
+    <input type="number" name="ratingSubject" id="ratingSubject" min="1" max="10" list="ratings" required>
+    <datalist id="ratings">
+      <option value="1">
+      <option value="2">
+      <option value="3">
+      <option value="4">
+      <option value="5">
+      <option value="6">
+      <option value="7">
+      <option value="8">
+      <option value="9">
+      <option value="10">
+    </datalist>
+  </fieldset>
+
+
+
+</form>
+<%- include('partials/footer') %>
