@@ -9,13 +9,22 @@ if ("storage" in navigator) {
 }
 
 /**
- * formData is an object that you can use to send HTML form data over http requests
+ * formData is an object that you can use to send HTML form data over http req
  */
-let myForm = document.getElementById("intro");
-// console.log("test", myForm);
+// let myForm = document.querySelector("form");
+// // console.log("test", myForm);
+// let result = new FormData(myForm);
+// console.log(result.get("userId"));
 
-myForm.addEventListener("submit", () => {
-  let fd = new FormData();
-  fd.append("userId", "111");
-  fd.getAll("userId");
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("intro");
+  form.addEventListener("submit", handleForm);
 });
+
+function handleForm(ev) {
+  ev.preventDefault();
+  console.log("test: ", ev.target);
+  let myForm = ev.target();
+  let fd = new FormData(myForm);
+  console.log(fd);
+}
